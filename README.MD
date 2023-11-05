@@ -62,7 +62,7 @@ A AES será implementada no tamanho de 128 bits para bloco e chave. Um processo 
 
 ### 3. Resultados
 
-![image info](imgs/1.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/1.PNG)
 
 #### 3.1 Cifragem/Decifragem em modo ECB 
 
@@ -71,23 +71,23 @@ A AES será implementada no tamanho de 128 bits para bloco e chave. Um processo 
 #### 3.2 Cifragem/Decifragem em modo CTR 
 Geração de chaves através de RSA
 
-![image info](imgs/2.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/2.PNG)
 
 
 Cifragem do arquivo 
 
-![image info](imgs/3.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/3.PNG)
 
 Produtos do processo de cifragem
 
-![image info](imgs/4.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/4.PNG)
 
 Decifragem do arquivo
 
-![image info](imgs/5.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/5.PNG)
 
 Cifragem de Imagem em modo CTR 
 
-![image info](imgs/6.png)
+![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/6.PNG)
 
 
