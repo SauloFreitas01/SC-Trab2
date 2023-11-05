@@ -52,7 +52,14 @@ if op=='1':
     with open(file, "rb") as f:
         msg = f.read()
 
-        ciphered_msg = AES.ctr(msg, key, iv)
+        op_cifra = input('insira 1 para ECB e 2 para ctr: ')
+        if op_cifra == '1':
+            num_rounds = input('insira o numero de rodadas: ')
+            ciphered_msg = AES.ecb(msg, key, num_rounds)
+        elif op_cifra == '2':
+            ciphered_msg = AES.ctr(msg, key, iv)
+        else:
+            exit('Input incorreto. Encerrando...')    
         with open(file, "wb") as f:
             f.write(ciphered_msg)
 
@@ -88,7 +95,7 @@ if op=='1':
     session_key = RSA.decypher(private_key, session_key_cipher)
     chave, iv = session_key[:16], session_key[16:]
 
-    msg = AES.ctr(session_key, chave, iv)
+    msg = AES.ctr(ciphered_msg, chave, iv)
     signature_ok = RSA.signature_check(public_key, msg, signature)
 
     print("Verificando assinatura...\n")

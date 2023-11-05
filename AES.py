@@ -236,6 +236,11 @@ def cipher(block, keys):
         state = add_round_key(state, keys[round])
     return state
 
+def ecb(msg, chave, num_rounds):
+    keys = expand_key(chave)
+    blocks = convert(msg, 16)
+    ciphered_text = [cipher(block, keys[:num_rounds]) for block in blocks]
+    return b''.join(ciphered_text)
 
 def ctr(msg, chave, iv):   
     """
