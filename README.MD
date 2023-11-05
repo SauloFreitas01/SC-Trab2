@@ -62,8 +62,32 @@ A AES será implementada no tamanho de 128 bits para bloco e chave. Um processo 
 
 ### 3. Resultados
 
+![image info](imgs/1.png)
+
 #### 3.1 Cifragem/Decifragem em modo ECB 
 
 
 
 #### 3.2 Cifragem/Decifragem em modo CTR 
+Geração de chaves através de RSA
+
+![image info](imgs/2.png)
+
+
+Cifragem do arquivo 
+
+![image info](imgs/3.png)
+
+Produtos do processo de cifragem
+
+![image info](imgs/4.png)
+
+Decifragem do arquivo
+
+![image info](imgs/5.png)
+
+Cifragem de Imagem em modo CTR 
+
+![image info](imgs/6.png)
+
+

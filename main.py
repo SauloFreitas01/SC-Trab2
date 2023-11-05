@@ -121,9 +121,12 @@ elif op == '2':
         if init_keys == 'S':
             arq = input('\nNOME DO ARQUIVO A SER DECIFRADO: ')
             file = Path(__file__).absolute().parent / arq
-            AES.decrypt_image_with_ctr(file, key)
-         
+            AES.encrypt_image_with_ctr(file, key)
+            with open(file, "rb") as f:
+                deciphered_msg = f.read()
+       
             print('Arquivo descriptografado com sucesso.')
+            print(deciphered_msg)
         elif init_keys == 'N':
             exit('Encerrando...')
         else:
