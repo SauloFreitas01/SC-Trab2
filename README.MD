@@ -62,32 +62,25 @@ A AES será implementada no tamanho de 128 bits para bloco e chave. Um processo 
 
 ### 3. Resultados
 
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/1.PNG)
+![](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/1.PNG)
 
-#### 3.1 Cifragem/Decifragem em modo ECB 
-
-
-
-#### 3.2 Cifragem/Decifragem em modo CTR 
-Geração de chaves através de RSA
-
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/2.PNG)
+#### 3.2 Cifragem/Decifragem
 
 
-Cifragem do arquivo 
+![Geração de chaves](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/2.PNG)
 
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/3.PNG)
 
-Produtos do processo de cifragem
+![Cifragem do arquivo](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/3.PNG)
 
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/4.PNG)
 
-Decifragem do arquivo
+![Produtos do processo de cifragem ](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/4.PNG)
 
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/5.PNG)
 
-Cifragem de Imagem em modo CTR 
 
-![image info](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/6.PNG)
+
+![Decifragem do arquivo](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/5.PNG)
+
+
+![Cifragem de Imagem em modo CTR ](https://raw.githubusercontent.com/SauloFreitas01/SC-Trab2/main/imgs/6.PNG)
 
 
